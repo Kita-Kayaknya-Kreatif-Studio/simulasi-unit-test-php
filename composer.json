@@ -1,0 +1,13 @@
+{
+    "name": "user/php-unit-test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.23",
+        "phpunit/phpunit": "*"
+    }
+}
