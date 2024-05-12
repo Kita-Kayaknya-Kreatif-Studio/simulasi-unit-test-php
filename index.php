@@ -13,7 +13,7 @@ $content = file_get_contents('php://input');
 header('Content-Type: application/json');
 
 switch ($requestUri) {
-    case '/api/storage-stock':
+    case '/api/employee':
         switch ($method) {
             case 'POST':
                 $controller = new EmployeeController();
